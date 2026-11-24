@@ -3,103 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ASCON - Revoluției 15 | Garsoniere de închiriat Focșani</title>
+  <title>ASCON - Revoluției 15 | Închiriere Garsonieră Focșani</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f6f8;
-      color: #333;
-    }
-    header {
-      background-color: #1e3a8a;
-      color: white;
-      text-align: center;
-      padding: 30px 20px;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 26px;
-    }
-    header p {
-      margin: 10px 0 0;
-      font-size: 16px;
-      color: #cbd5e1;
-    }
-    .container {
-      max-width: 650px;
-      margin: 20px auto;
-      padding: 25px;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    }
-    .price {
-      font-size: 28px;
-      font-weight: bold;
-      color: #16a34a;
-      text-align: center;
-      margin: 15px 0;
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 20px 0;
-    }
-    li {
-      padding: 10px 0;
-      border-bottom: 1px solid #e2e8f0;
-      font-size: 16px;
-    }
-    li:last-child {
-      border-bottom: none;
-    }
-    .call-btn {
-      display: block;
-      width: 100%;
-      text-align: center;
-      background-color: #2563eb;
-      color: white;
-      text-decoration: none;
-      font-size: 20px;
-      font-weight: bold;
-      padding: 15px 0;
-      border-radius: 8px;
-      margin-top: 25px;
-    }
-    .call-btn:hover {
-      background-color: #1d4ed8;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      color: #64748b;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+    body { background: #f4f6f8; color: #333; line-height: 1.6; padding-bottom: 40px; }
+    .container { max-width: 800px; margin: 0 auto; background: #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+    header { background: #1a365d; color: #fff; padding: 30px 20px; text-align: center; }
+    header h1 { font-size: 26px; margin-bottom: 8px; }
+    header p { font-size: 16px; opacity: 0.9; }
+    .content { padding: 25px 20px; }
+    .price-box { background: #ebf8fa; border-left: 5px solid #00a8cc; padding: 15px 20px; border-radius: 4px; margin-bottom: 25px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+    .price { font-size: 24px; font-weight: bold; color: #007a99; }
+    .details { margin-bottom: 25px; }
+    .details h2 { font-size: 20px; margin-bottom: 12px; color: #1a365d; }
+    .details ul { list-style: none; }
+    .details li { padding: 8px 0; border-bottom: 1px solid #edf2f7; font-size: 16px; }
+    .details li::before { content: "✓ "; color: #38a169; font-weight: bold; }
+    .gallery { margin-bottom: 30px; }
+    .gallery h2 { font-size: 20px; margin-bottom: 15px; color: #1a365d; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+    .grid img { width: 100%; height: 220px; object-fit: cover; border-radius: 8px; border: 1px solid #e2e8f0; display: block; }
+    .btn-call { display: block; width: 100%; text-align: center; background: #2b6cb0; color: #fff; font-size: 20px; font-weight: bold; text-decoration: none; padding: 16px; border-radius: 8px; box-shadow: 0 4px 10px rgba(43, 108, 176, 0.3); transition: background 0.2s; }
+    .btn-call:hover { background: #2c5282; }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>ASCON - REVOLUȚIEI 15</h1>
-    <p>Garsoniere de închiriat • Str. Revoluției nr. 15, Focșani</p>
-  </header>
-
   <div class="container">
-    <div class="price">800 LEI / lună</div>
+    <header>
+      <h1>ASCON - Revoluției 15</h1>
+      <p>Garsonieră de închiriat • Focșani</p>
+    </header>
 
-    <ul>
-      <li>Renovată integral</li>
-      <li>Contorizată individual</li>
-      <li>Nemobilată</li>
-      <li>Zonă liniștită, acces facil</li>
-    </ul>
+    <div class="content">
+      <div class="price-box">
+        <div>Chirie lunară:</div>
+        <div class="price">800 LEI / lună</div>
+      </div>
 
-    <a href="tel:0768555952" class="call-btn">Sună acum: 0768 555 952</a>
+      <div class="details">
+        <h2>Detalii proprietate</h2>
+        <ul>
+          <li>Str. Revoluției nr. 15, Focșani</li>
+          <li>Renovată integral</li>
+          <li>Contorizată individual</li>
+          <li>Nemobilată</li>
+          <li>Zonă liniștită, acces facil</li>
+        </ul>
+      </div>
+
+      <div class="gallery">
+        <h2>Galerie Foto</h2>
+        <div class="grid">
+          <img src="IMG_2005.jpeg" alt="Garsonieră Focșani">
+          <img src="IMG_2006.jpeg" alt="Garsonieră Focșani">
+          <img src="IMG_2007.jpeg" alt="Garsonieră Focșani">
+          <img src="IMG_2008.jpeg" alt="Garsonieră Focșani">
+          <img src="IMG_2009.jpeg" alt="Garsonieră Focșani">
+          <img src="IMG_2010.jpeg" alt="Garsonieră Focșani">
+        </div>
+      </div>
+
+      <a href="tel:0768555952" class="btn-call">📞 Sună la 0768 555 952</a>
+    </div>
   </div>
 
-  <footer>
-    <p>&copy; 2026 ASCON - Revoluției 15. Toate drepturile rezervate.</p>
-  </footer>
-  
+</body>
+</html>
